@@ -8,6 +8,30 @@
 
 This page
 
+## Specs
+
+### Spec 1
+It can count up to the provided number.
+* Example Input: 2
+* Example Output: [1,2]
+
+### Spec 2
+Numbers divisible by 3 will be replaced with "ping"
+* Example Input: 9
+* Example Output: "ping"
+
+### Spec 3
+Numbers divisible by 5 will be replaced with "pong"
+* Example Input: 5
+* Example Output: "pong"
+
+### Spec 4
+Numbers divisible by 15 will be replaced with "pingpong"
+* Example Input: 30
+* Example Output: "pingpong"
+
+### Spec 5
+
 ## Setup/Installation Requirements
 
 Clone this repository
