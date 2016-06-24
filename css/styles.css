@@ -1,3 +1,42 @@
-/*#result {
+#result {
   display: none;
-}*/
+}
+
+body {
+  background-color: #99ccff;
+}
+
+.header {
+  margin-top: 40px;;
+}
+
+.ping-pong {
+  background-image: url("../img/ping-pong.jpg");
+  background-size: cover;
+  height: 450px;
+  text-align: center;
+  color: white;
+}
+
+.rules {
+  list-style-position: inside;
+}
+
+#number_input {
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+#output {
+  margin: 50px 10%;
+  display: block;
+  color: white;
+}
+
+#output li {
+  float: left;
+  display: inline-block;
+  padding-right: 6px;
+}
+
+#output li:after{content:'-'; margin:0 10px;}
