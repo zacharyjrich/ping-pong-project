@@ -40,9 +40,9 @@ No known bugs to this point.
 
 ## Support and contact details
 
-<!-- http://zacharyjrich.github.io/project2_vacation_suggester
+http://zacharyjrich.github.io/ping-pong-project
 
-https://github.com/zacharyjrich/project2_vacation_suggester -->
+https://github.com/zacharyjrich/ping-pong-project
 
 ## Technologies Used
 
