@@ -6,7 +6,7 @@
 
 ## Description
 
-This page
+This page will allow a user to enter a number and receive a list of numbers from 1 to the one that they entered with a few exceptions. Exceptions listed in the Specs area.
 
 ## Specs
 

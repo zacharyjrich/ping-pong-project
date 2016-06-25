@@ -9,25 +9,27 @@
   </head>
   <body>
     <div class="container-fluid ping-pong">
-      <h1 class="header">Ping Ping, Pong!</h1>
-      <p>Enter a number and you'll get numbers from 1 to yours with a few exceptions:</p>
-      <ol class="rules">
-        <li>Numbers divisible by 3 will return "ping"</li>
-        <li>Numbers divisible by 5 will return "pong"</li>
-        <li>Numbers divisible by 15 will return "pingpong"</li>
-      </ol>
+      <div class="header">
+        <h1>Ping, Pong!</h1>
+        <p>Enter a number and I'll count up from 1 to yours with a few exceptions:</p>
+        <ol class="rules">
+          <li>Numbers divisible by 3 will return "ping"</li>
+          <li>Numbers divisible by 5 will return "pong"</li>
+          <li>Numbers divisible by 15 will return "pingpong"</li>
+        </ol>
+      </div>
 
       <form id="number_input">
         <div class="form-group">
           <label for="item1">Enter your number here:</label>
           <input id="submission" class="form-control" type="text">
         </div>
-        <button type="submit" class="btn">Find out!</button>
+        <button type="submit" class="btn btn-warning">Give it a go!</button>
       </form>
     </div>
 
-      <div id="output">
-        <ul class="final"></ul>
-      </div>
+    <div id="output">
+      <ul></ul>
+    </div>
   </body>
 </html>
