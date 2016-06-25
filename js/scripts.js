@@ -16,13 +16,13 @@ var pingPong = function(input) {
 
 $(document).ready(function() {
   $("form#number_input").submit(function(event) {
+    event.preventDefault();
     var input = parseInt($("input#submission").val());
     var result = pingPong(input);
 
     result.forEach(function(listResult) {
-    $("#output").append("<li>" + listResult + "</li>");
-    // $("#output").text();
-    event.preventDefault();
+      $("#output").hide().append("<li>" + listResult + "</li>").show("slow");
+      $(".ping-pong").slideUp("slow");
 
     });
   });

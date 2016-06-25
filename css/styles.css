@@ -1,7 +1,6 @@
 body {
   background-color: #ffa64d;
   font-family: Verdana, sans-serif;
-  text-shadow: 2px 2px 6px #000000;
 }
 
 .header h1 {
@@ -27,6 +26,7 @@ body {
   height: 600px;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 6px #000000;
 }
 
 #number_input {

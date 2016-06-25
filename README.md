@@ -30,8 +30,6 @@ Numbers divisible by 15 will be replaced with "pingpong"
 * Example Input: 30
 * Example Output: "pingpong"
 
-### Spec 5
-
 ## Setup/Installation Requirements
 
 Clone this repository
