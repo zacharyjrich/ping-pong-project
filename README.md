@@ -18,17 +18,17 @@ It can count up to the provided number.
 ### Spec 2
 Numbers divisible by 3 will be replaced with "ping"
 * Example Input: 9
-* Example Output: "ping"
+* Example Output: [1,2,ping]
 
 ### Spec 3
 Numbers divisible by 5 will be replaced with "pong"
 * Example Input: 5
-* Example Output: "pong"
+* Example Output: [1,2,ping,4,pong]
 
 ### Spec 4
 Numbers divisible by 15 will be replaced with "pingpong"
 * Example Input: 30
-* Example Output: "pingpong"
+* Example Output: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong]
 
 ## Setup/Installation Requirements
 
